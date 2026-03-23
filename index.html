@@ -41,7 +41,6 @@
             <h2>The Living Seawall</h2>
             <h3>How We Can Give Oceanlife New Homes</h3>
         </div>
-
     </header>
 
     <nav id="mobilemenu"></nav>
@@ -87,9 +86,14 @@
     </main>
 
     <footer>
-
+        <p>&copy; <span id="copyrightyear"></span> Ryan Bisesti Productions</p>
     </footer>
 
 </body>
 
 </html>
+<script>
+	window.onload = function () {
+		document.getElementById("copyrightyear").innerHTML = new Date().getFullYear();
+	}
+</script>

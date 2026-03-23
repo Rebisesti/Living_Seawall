@@ -1,16 +1,18 @@
+/*
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: aqua;
 }
+*/
 
 header {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: start;
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    gap: 15px;
 }
+
 
 header div h2 {
     font-size: 175%;
@@ -23,12 +25,17 @@ header div h3 {
 }
 
 header img {
-    max-width: 50%;
-    padding: 0;
+    width: 80px; /* or 100px depending on your design */
+    height: auto;
+    display: block;
 }
 
 header a {
     padding: 0;
+}
+
+body {
+    background-color: aqua;
 }
 
 /* NAV MENU */
@@ -41,10 +48,12 @@ header a {
     list-style-type: none;
     position: relative;
     display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 #nav_menu li {
-    width: 20%;
+    width: auto;
 }
 
 #nav_menu a {
@@ -70,7 +79,7 @@ header a {
     padding-left: .25em;
 }
 
-#nav_menu ul li:hover > ul {
+#nav_menu ul li:hover>ul {
     display: block;
 }
 
