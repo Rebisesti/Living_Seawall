@@ -14,14 +14,17 @@
     <!-- JQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-    <!-- Slicknav JS file -->
-    <script src="js/jquery.slicknav.min.js"></script>
+	<!-- SlickNav Links -->
+	<link rel="stylesheet" href="styles/slicknav.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#nav_menu').slicknav({ prependTo: "#mobilemenu" });
-        });
-    </script>
+	<script src="js/jquery.slicknav.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#nav_menu').slicknav({ prependTo: "#mobilemenu" });
+		});
+	</script>
 
     <link rel="stylesheet" href="styles/slicknav.css">
     <link rel="stylesheet" href="styles/main.css">
@@ -34,7 +37,7 @@
 
     <header>
         <a href="index.html">
-            <img src="images/Endicott_Logo.png" alt="Endicott logo image"title="Click Here to Return to Home Page">
+            <img src="images/Endicott_Logo.png" alt="Endicott logo image" title="Click Here to Return to Home Page">
         </a>
 
         <div>
@@ -47,11 +50,10 @@
     <nav id="nav_menu">
         <ul>
             <li><a href="index.html">Home: You are on the home page</a></li>
-            <li><a href="alt_pages/Research.html">Research: What went into making this seawall</a></li>
-            <li><a href="alt_pages/Construction.html">Construction: How we made our seawall</a></li>
-            <li><a href="alt_pages/Math.html">Math: The math that was involved in our data collection</a>
-            </li>
-            <li><a href="alt_pages/Final Results.">Final Results: What we learned</a></li>
+            <li><a href="Research.html">Research: What went into making this seawall</a></li>
+            <li><a href="Construction.html">Construction: How we made our seawall</a></li>
+            <li><a href="Math.html">Math: The math that was involved in our data collection</a></li>
+            <li><a href="Final Results.html">Final Results: What we learned</a></li>
         </ul>
     </nav>
 
@@ -93,7 +95,7 @@
 
 </html>
 <script>
-	window.onload = function () {
-		document.getElementById("copyrightyear").innerHTML = new Date().getFullYear();
-	}
+    window.onload = function () {
+        document.getElementById("copyrightyear").innerHTML = new Date().getFullYear();
+    }
 </script>
