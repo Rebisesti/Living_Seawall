@@ -59,6 +59,10 @@ footer {
     background-color: darkblue;
 }
 
+#mobilemenu {
+    display: none;
+}
+
 #nav_menu ul {
     list-style-type: none;
     position: relative;
