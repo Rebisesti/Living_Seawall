@@ -25,7 +25,8 @@ header div h3 {
 }
 
 header img {
-    width: 80px; /* or 100px depending on your design */
+    width: 80px;
+    /* or 100px depending on your design */
     height: auto;
     display: block;
 }
@@ -34,7 +35,7 @@ header a {
     padding: 0;
 }
 
-body{
+body {
     background-image: url(../images/background.jpg);
     background-position: center;
     background-size: cover;
@@ -128,11 +129,11 @@ footer {
 /* MEDIA QUERY */
 
 @media (max-width: 767px) {
-			#nav_menu {
-				display: none;
-			}
+    #nav_menu {
+        display: none;
+    }
 
-			#mobilemenu {
-				display: block;
-			}
-		}
+    #mobilemenu {
+        display: block;
+    }
+}
