@@ -49,6 +49,20 @@ body main {
     background-color: rgba(0, 0, 0, 0.512);
 }
 
+aside article {
+    display: flex;
+    justify-content: center;
+}
+
+main aside h3 {
+    display: grid;
+    place-items: center;
+}
+
+aside article img {
+    max-width: 35%;
+}
+
 footer {
     color: aqua;
 }
