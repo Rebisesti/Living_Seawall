@@ -72,6 +72,13 @@ body main {
     background-color: darkblue;
 }
 
+.digitalclock {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 300%;
+}
+
 footer {
     color: aqua;
 }
