@@ -47,6 +47,27 @@ body main h3 {
     place-items: center;
 }
 
+.return-to-top {
+    display: none;
+    justify-content: center;
+    left: 75px;
+    bottom: 75px;
+    z-index: 9999;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .5);
+    transition: all ease-in-out 300ms;
+}
+
+.return-to-top img {
+    max-width: 5%;
+}
+
+.return-to-top:hover {
+    background-color: darkblue;
+}
+
 footer {
     color: aqua;
 }
@@ -116,5 +137,10 @@ footer {
 
     #mobilemenu {
         display: block;
+    }
+
+    .return-to-top {
+        left: 10px;
+        bottom: 10px;
     }
 }
