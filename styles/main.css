@@ -49,6 +49,14 @@ body main {
     background-color: rgba(0, 0, 0, 0.512);
 }
 
+main section a {
+    color: aqua;
+}
+
+main section a:hover {
+    color: green;
+}
+
 .return-to-top {
     display: none;
     justify-content: center;

@@ -1,9 +1,34 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+
+header div h2 {
+    font-size: 175%;
+    color: darkblue;
+}
+
+header div h3 {
+    font-size: 130%;
+    font-style: italic;
+}
+
+header img {
+    width: 80px;
+    /* or 100px depending on your design */
+    height: auto;
+    display: block;
+}
+
 body main {
     display: grid;
     place-items: center;
 }
 
-img {
+main img {
     display: block;
     margin: 0 auto;
     max-width: 50%;
